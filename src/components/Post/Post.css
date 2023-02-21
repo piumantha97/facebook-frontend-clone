@@ -1,0 +1,113 @@
+.postImage {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.post {
+  font-family: sans-serif;
+  margin: 30px 0px;
+  margin-left: 10px;
+  box-shadow: 3px 5px 5px 0px rgba(50, 50, 50, 0.75);
+  -webkit-box-shadow: 3px 5px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 3px 5px 5px 0px rgba(50, 50, 50, 0.75);
+  border-radius: 10px;
+  width: 95%;
+}
+.postTop {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.postUserName {
+  margin: 0px 10px;
+  font-weight: 500;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+.postTime {
+  margin: 10px;
+  font-size: 10px;
+}
+.postCaption {
+  margin-left: 10px;
+  margin-top: 20px;
+  font-size: 10px;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+}
+.postedImage {
+  width: 98%;
+  background-size: cover;
+  margin-left: 5px;
+  box-shadow: 3px 5px 5px 0px rgba(50, 50, 50, 0.75);
+  -webkit-box-shadow: 3px 5px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 3px 5px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.reactionPic {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-left: 1px;
+}
+.postedImageDownLine {
+  margin: 20px;
+  align-items: center;
+}
+.postBottom {
+  width: 98%;
+  align-items: center;
+  display: flex;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.postBottomLeft {
+  display: flex;
+  align-items: center;
+}
+.likeCount {
+  margin-left: 5px;
+}
+.commentCount {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.commentLineTop {
+  margin: 20px;
+  margin-bottom: 20px;
+}
+.likeCommentShare {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  cursor: pointer;
+}
+.like {
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 10px;
+}
+.comment {
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 10px;
+}
+.share {
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 10px;
+}
